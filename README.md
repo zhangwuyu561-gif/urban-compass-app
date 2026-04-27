@@ -1,32 +1,25 @@
-# urban-compass-app
-A Flutter-based location-aware city exploration app
-# Urban Compass
+# Urban Explorer
 
-## Overview
-
-Urban Compass is a location-based mobile application designed to help users discover meaningful places around them based on their current environment and mood.
+## App Idea
+Urban Explorer is a Flutter mobile application that helps users discover interesting places nearby based on their current location.
 
 ## Problem Statement
+Cities contain many interesting, useful, and relaxing places, but users often rely on generic map searches or reviews. It can be difficult to quickly find places that match their current needs, such as a quiet space, a café, or somewhere worth exploring. Urban Explorer uses GPS, a Places API, and saved favourites to help users discover and return to meaningful urban locations.
 
-Many people move through cities using familiar routes and places, often missing nearby spaces that could support studying, relaxing, or exploration.
+## Target Users
+The app is designed for students, city walkers, and people who want to explore nearby places in a more intentional and personalised way.
 
-##  Solution
+## Planned Features
+- Splash screen and onboarding
+- GPS-based current location detection
+- Nearby place recommendations
+- Categories such as cafés, quiet spaces, parks, and interesting spots
+- Place detail screen
+- Favourite/save function
+- Firebase storage for saved places
+- Simple exploratory journey through the city
 
-This app recommends nearby locations based on the user’s GPS location and chosen exploration mode (e.g. study, chill, explore).
-
-##  Features (MVP)
-
-* Get user location (GPS)
-* Fetch nearby places using API
-* Display places in a list
-* View place details
-* Save favourite places (Firebase)
-
-## Technologies
-
-* Flutter (Dart)
-* Location Services
-* Places API
-* Firebase Firestore
-
-
+## Sensors and Services
+- GPS / location sensor
+- Google Places API or Foursquare Places API
+- Firebase Firestore for saved favourites
